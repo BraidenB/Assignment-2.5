@@ -1,0 +1,12 @@
+Question 2: How would you invoke the verse method if you wanted to sing about a duck that
+quacks? 
+
+public static void singOldMacdonald() {
+verse(“cow”, “moo”);
+System.out.println(“”);
+verse(“dog”, “woof”);
+System.out.println(“”);
+
+verse("duck", "quack"); <== add this
+}
+
