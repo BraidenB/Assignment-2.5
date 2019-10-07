@@ -1,0 +1,26 @@
+Question 3: What is the output of the following program? Be precise about where there are
+spaces and where there are newlines.
+
+Hint: Start by describing in words what ping and baffle do when they are invoked.
+
+public static void zoop() {
+ baffle();
+ System.out.print("You wugga ");
+ baffle();
+}
+public static void main(String[] args) {
+ System.out.print("No, I ");
+ zoop();
+ System.out.print("I ");
+ baffle();
+}
+public static void baffle() {
+ System.out.print("wug");
+ ping();
+}
+public static void ping() {
+ System.out.println(".");
+}
+
+Answer:
+No, I wug. You wugga wug. I wug.
