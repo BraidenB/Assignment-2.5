@@ -1,0 +1,4 @@
+Question 5: What happens if you invoke baffle(); at the end of the ping method? 
+
+Answer:
+It would continuously invoke baffle then ping, which would result in an infinite output of wug.wug.wug.wug.wug. until java eventually crashes.
